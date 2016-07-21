@@ -10,7 +10,7 @@ module.exports = function(context, req) {
 
             // status: 200, /* Defaults to 200 */
 
-            body: "Git Hello " + (req.query.name || req.body.name)
+            body: "Git Hello There " + (req.query.name || req.body.name)
 
         };
 
